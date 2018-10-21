@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2153a1b8-0617-4acb-a709-637bbd683b3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_management.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +12,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ml_regression_assignments$helpers.coverage" NAME="helpers Coverage Results" MODIFIED="1540133544517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ml_regression_assignments$week_2_a_2.coverage" NAME="week_2_a_2 Coverage Results" MODIFIED="1540132387176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ml_regression_assignments$week2.coverage" NAME="week2 Coverage Results" MODIFIED="1540083206526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -69,12 +71,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="99" />
+          <entry key="py" value="1609" />
+          <entry key="week_2_a_2" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="99" />
+          <entry key="Python" value="1610" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -84,28 +97,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="74" column="45" lean-forward="true" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="45" />
+            <state relative-caret-position="221">
+              <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
               <folding>
                 <element signature="e#0#72#0" expanded="true" />
-                <marker date="1540087043427" expanded="true" signature="146:437" ph="..." />
-                <marker date="1540087043427" expanded="true" signature="185:437" ph="..." />
-                <marker date="1540087043427" expanded="true" signature="476:873" ph="..." />
-                <marker date="1540087043427" expanded="true" signature="972:973" ph="..." />
-                <marker date="1540087043427" expanded="true" signature="1201:1524" ph="..." />
-                <marker date="1540087043427" expanded="true" signature="1535:3523" ph="..." />
+                <marker date="1540125193120" expanded="true" signature="146:437" ph="..." />
+                <marker date="1540125193120" expanded="true" signature="185:437" ph="..." />
+                <marker date="1540125193120" expanded="true" signature="476:873" ph="..." />
+                <marker date="1540125193120" expanded="true" signature="972:973" ph="..." />
+                <marker date="1540125193120" expanded="true" signature="1201:1524" ph="..." />
+                <marker date="1540125193120" expanded="true" signature="1535:3523" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_management.py">
+        <entry file="file://$PROJECT_DIR$/helpers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="19" />
+            <state relative-caret-position="153">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding>
-                <marker date="1540086996538" expanded="true" signature="478:552" ph="..." />
+                <marker date="1540134203204" expanded="true" signature="44:49" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week_2_a_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="109" column="67" selection-start-line="109" selection-start-column="67" selection-end-line="109" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1540134119988" expanded="true" signature="1389:1472" ph="..." />
+                <marker date="1540134119988" expanded="true" signature="1483:1484" ph="..." />
+                <marker date="1540134119988" expanded="true" signature="1483:3446" ph="..." />
               </folding>
             </state>
           </provider>
@@ -120,6 +148,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>predict_outcome</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -129,6 +162,8 @@
         <option value="$PROJECT_DIR$/data_manager.py" />
         <option value="$PROJECT_DIR$/data_management.py" />
         <option value="$PROJECT_DIR$/week2.py" />
+        <option value="$PROJECT_DIR$/week_2_a_2.py" />
+        <option value="$PROJECT_DIR$/helpers.py" />
       </list>
     </option>
   </component>
@@ -155,11 +190,15 @@
     <option name="width" value="1400" />
     <option name="height" value="830" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,7 +214,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.helpers">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="ml-regression-assignments" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,10 +268,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="helpers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ml-regression-assignments" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/helpers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="week2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ml-regression-assignments" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -249,8 +309,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="week_2_a_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ml-regression-assignments" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week_2_a_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.week2" />
+      <item itemvalue="Python.week_2_a_2" />
+      <item itemvalue="Python.helpers" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.helpers" />
+        <item itemvalue="Python.week_2_a_2" />
         <item itemvalue="Python.week2" />
       </list>
     </recent_temporary>
@@ -270,8 +356,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11182519" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14138818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -282,16 +369,16 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32978722" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32978722" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.34175533" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.34175533" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.5674603" visible="true" weight="0.24485861" />
-      <window_info anchor="right" x="0" y="0" width="354" height="686" id="Documentation" order="4" sideWeight="0.43253967" side_tool="true" visible="true" weight="0.24485861" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.56565654" visible="true" weight="0.30526993" />
+      <window_info anchor="right" x="0" y="0" width="354" height="686" id="Documentation" order="4" sideWeight="0.43434343" side_tool="true" visible="true" weight="0.30526993" />
       <window_info anchor="right" id="Database" order="5" sideWeight="0.49801588" weight="0.32969153" />
     </layout>
   </component>
@@ -301,8 +388,34 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="feature_matrix[:, i]" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>feature_matrix[:, i]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>output_array == output_sarray</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>9.71328233544e+14</expression-string>
         <language-id>Python</language-id>
@@ -338,28 +451,65 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_manager.py" />
-    <entry file="file://$PROJECT_DIR$/week2.py">
+    <entry file="file://$PROJECT_DIR$/data_management.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="74" column="45" lean-forward="true" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="45" />
+        <state relative-caret-position="170">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding>
-            <element signature="e#0#72#0" expanded="true" />
-            <marker date="1540087043427" expanded="true" signature="146:437" ph="..." />
-            <marker date="1540087043427" expanded="true" signature="185:437" ph="..." />
-            <marker date="1540087043427" expanded="true" signature="476:873" ph="..." />
-            <marker date="1540087043427" expanded="true" signature="972:973" ph="..." />
-            <marker date="1540087043427" expanded="true" signature="1201:1524" ph="..." />
-            <marker date="1540087043427" expanded="true" signature="1535:3523" ph="..." />
+            <marker date="1540125193118" expanded="true" signature="478:552" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_management.py">
+    <entry file="file://$PROJECT_DIR$/../R&amp;D/Uni/ml-regression-assignments/venv/Lib/site-packages/pandas/core/generic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="19" />
+        <state relative-caret-position="219">
+          <caret line="4380" column="11" lean-forward="true" selection-start-line="4380" selection-start-column="11" selection-end-line="4380" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="79" column="4" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
           <folding>
-            <marker date="1540086996538" expanded="true" signature="478:552" ph="..." />
+            <element signature="e#0#72#0" expanded="true" />
+            <marker date="1540125193120" expanded="true" signature="146:437" ph="..." />
+            <marker date="1540125193120" expanded="true" signature="185:437" ph="..." />
+            <marker date="1540125193120" expanded="true" signature="476:873" ph="..." />
+            <marker date="1540125193120" expanded="true" signature="972:973" ph="..." />
+            <marker date="1540125193120" expanded="true" signature="1201:1524" ph="..." />
+            <marker date="1540125193120" expanded="true" signature="1535:3523" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week_2_a_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="109" column="67" selection-start-line="109" selection-start-column="67" selection-end-line="109" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1540134119988" expanded="true" signature="1389:1472" ph="..." />
+            <marker date="1540134119988" expanded="true" signature="1483:1484" ph="..." />
+            <marker date="1540134119988" expanded="true" signature="1483:3446" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <marker date="1540134203204" expanded="true" signature="44:49" ph="..." />
           </folding>
         </state>
       </provider>
