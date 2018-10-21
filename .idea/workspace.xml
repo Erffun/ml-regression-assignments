@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2153a1b8-0617-4acb-a709-637bbd683b3e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/week2.py" beforeDir="false" afterPath="$PROJECT_DIR$/week2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,16 +96,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="289">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding>
                 <element signature="e#0#72#0" expanded="true" />
-                <marker date="1540134373262" expanded="true" signature="161:452" ph="..." />
-                <marker date="1540134373262" expanded="true" signature="200:452" ph="..." />
-                <marker date="1540134373262" expanded="true" signature="491:888" ph="..." />
-                <marker date="1540134373262" expanded="true" signature="987:988" ph="..." />
-                <marker date="1540134373262" expanded="true" signature="1216:1539" ph="..." />
-                <marker date="1540134373262" expanded="true" signature="1550:3512" ph="..." />
+                <marker date="1540134670636" expanded="true" signature="161:452" ph="..." />
+                <marker date="1540134670636" expanded="true" signature="200:452" ph="..." />
+                <marker date="1540134670636" expanded="true" signature="491:888" ph="..." />
+                <marker date="1540134670636" expanded="true" signature="987:988" ph="..." />
+                <marker date="1540134670636" expanded="true" signature="1216:1539" ph="..." />
+                <marker date="1540134670636" expanded="true" signature="1550:3512" ph="..." />
               </folding>
             </state>
           </provider>
@@ -117,7 +117,7 @@
             <state relative-caret-position="17">
               <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
               <folding>
-                <marker date="1540134203204" expanded="true" signature="44:49" ph="..." />
+                <marker date="1540134670634" expanded="true" signature="44:49" ph="..." />
               </folding>
             </state>
           </provider>
@@ -130,9 +130,9 @@
               <caret line="110" column="77" lean-forward="true" selection-start-line="109" selection-start-column="4" selection-end-line="110" selection-end-column="77" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1540134119988" expanded="true" signature="1389:1472" ph="..." />
-                <marker date="1540134119988" expanded="true" signature="1483:1484" ph="..." />
-                <marker date="1540134119988" expanded="true" signature="1483:3446" ph="..." />
+                <marker date="1540134670637" expanded="true" signature="1389:1472" ph="..." />
+                <marker date="1540134670637" expanded="true" signature="1483:1484" ph="..." />
+                <marker date="1540134670637" expanded="true" signature="1483:3446" ph="..." />
               </folding>
             </state>
           </provider>
@@ -183,7 +183,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="89" />
     <option name="y" value="-13" />
     <option name="width" value="1400" />
@@ -271,6 +271,9 @@
       <module name="ml-regression-assignments" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -312,6 +315,9 @@
       <module name="ml-regression-assignments" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -354,7 +360,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14138818" />
@@ -479,7 +485,7 @@
         <state relative-caret-position="17">
           <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
           <folding>
-            <marker date="1540134203204" expanded="true" signature="44:49" ph="..." />
+            <marker date="1540134670634" expanded="true" signature="44:49" ph="..." />
           </folding>
         </state>
       </provider>
@@ -490,25 +496,25 @@
           <caret line="110" column="77" lean-forward="true" selection-start-line="109" selection-start-column="4" selection-end-line="110" selection-end-column="77" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1540134119988" expanded="true" signature="1389:1472" ph="..." />
-            <marker date="1540134119988" expanded="true" signature="1483:1484" ph="..." />
-            <marker date="1540134119988" expanded="true" signature="1483:3446" ph="..." />
+            <marker date="1540134670637" expanded="true" signature="1389:1472" ph="..." />
+            <marker date="1540134670637" expanded="true" signature="1483:1484" ph="..." />
+            <marker date="1540134670637" expanded="true" signature="1483:3446" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="289">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding>
             <element signature="e#0#72#0" expanded="true" />
-            <marker date="1540134373262" expanded="true" signature="161:452" ph="..." />
-            <marker date="1540134373262" expanded="true" signature="200:452" ph="..." />
-            <marker date="1540134373262" expanded="true" signature="491:888" ph="..." />
-            <marker date="1540134373262" expanded="true" signature="987:988" ph="..." />
-            <marker date="1540134373262" expanded="true" signature="1216:1539" ph="..." />
-            <marker date="1540134373262" expanded="true" signature="1550:3512" ph="..." />
+            <marker date="1540134670636" expanded="true" signature="161:452" ph="..." />
+            <marker date="1540134670636" expanded="true" signature="200:452" ph="..." />
+            <marker date="1540134670636" expanded="true" signature="491:888" ph="..." />
+            <marker date="1540134670636" expanded="true" signature="987:988" ph="..." />
+            <marker date="1540134670636" expanded="true" signature="1216:1539" ph="..." />
+            <marker date="1540134670636" expanded="true" signature="1550:3512" ph="..." />
           </folding>
         </state>
       </provider>
