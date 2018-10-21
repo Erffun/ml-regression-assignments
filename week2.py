@@ -2,6 +2,7 @@ from statsmodels.regression.linear_model import RegressionResultsWrapper
 import numpy
 import statsmodels.api as sm
 import data_management as dm
+import helpers
 
 
 def add_new_values(data: list) -> list:
@@ -77,14 +78,11 @@ def main():
     print('The lowest rss is for: {rss}'.format(rss=min_rss))
 
     # #10 Quiz
-    rss_test_list = dict()
-    rss_test_list['Model 1'] = get_rss(model_1_estimated, test_data, model_1_features, 'price')
-    rss_test_list['Model 2'] = get_rss(model_2_estimated, test_data, model_2_features, 'price')
-    rss_test_list['Model 3'] = get_rss(model_3_estimated, test_data, model_3_features, 'price')
-
-    min_test_rss = min(rss_list, key=rss_test_list.get)
-
-    print('The lowest rss is for: Test {rss}'.format(rss=min_test_rss))
+    model_1_rss = get_rss(model_1_estimated, test_data, model_1_features, 'price')
+    model_2_rss = get_rss(model_2_estimated, test_data, model_2_features, 'price')
+    model_3_rss = get_rss(model_3_estimated, test_data, model_3_features, 'price')
+    lowest_index = helpers.get_lowest_index([model_1_rss, model_2_rss, model_3_rss])
+    print('The lowest rss is for Test Model-{index}'.format(index=lowest_index + 1))
 
 
 if __name__ == "__main__":
