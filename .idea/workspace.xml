@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2153a1b8-0617-4acb-a709-637bbd683b3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,19 +65,22 @@
     <session id="-365668511">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1660" />
+          <entry key="py" value="1678" />
           <entry key="week_2_a_2" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1661" />
+          <entry key="Python" value="1679" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -93,11 +97,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="294">
+              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
               <folding>
                 <element signature="e#0#72#0" expanded="true" />
                 <marker date="1540134670636" expanded="true" signature="161:452" ph="..." />
@@ -114,20 +118,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helpers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <marker date="1540134670634" expanded="true" signature="44:49" ph="..." />
+                <marker date="1540275065246" expanded="true" signature="44:49" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week_2_a_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="110" column="77" lean-forward="true" selection-start-line="109" selection-start-column="4" selection-end-line="110" selection-end-column="77" />
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <marker date="1540134670637" expanded="true" signature="1389:1472" ph="..." />
@@ -161,8 +165,8 @@
         <option value="$PROJECT_DIR$/data_manager.py" />
         <option value="$PROJECT_DIR$/data_management.py" />
         <option value="$PROJECT_DIR$/week_2_a_2.py" />
-        <option value="$PROJECT_DIR$/helpers.py" />
         <option value="$PROJECT_DIR$/week2.py" />
+        <option value="$PROJECT_DIR$/helpers.py" />
       </list>
     </option>
   </component>
@@ -183,7 +187,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="89" />
     <option name="y" value="-13" />
     <option name="width" value="1400" />
@@ -244,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.helpers">
+  <component name="RunManager" selected="Python.week_2_a_2">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="ml-regression-assignments" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,9 +297,6 @@
       <module name="ml-regression-assignments" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -315,9 +316,6 @@
       <module name="ml-regression-assignments" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -340,9 +338,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.helpers" />
         <item itemvalue="Python.week_2_a_2" />
         <item itemvalue="Python.week2" />
+        <item itemvalue="Python.helpers" />
       </list>
     </recent_temporary>
   </component>
@@ -360,10 +358,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14138818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1452345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -378,12 +375,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32978722" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.34175533" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.33870968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.56565654" visible="true" weight="0.30526993" />
-      <window_info anchor="right" x="0" y="0" width="354" height="686" id="Documentation" order="4" sideWeight="0.43434343" side_tool="true" visible="true" weight="0.30526993" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.5609756" visible="true" weight="0.1323752" />
+      <window_info anchor="right" x="0" y="0" width="354" height="686" id="Documentation" order="4" sideWeight="0.4390244" side_tool="true" visible="true" weight="0.1323752" />
       <window_info anchor="right" id="Database" order="5" sideWeight="0.49801588" weight="0.32969153" />
     </layout>
   </component>
@@ -482,31 +479,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/helpers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <marker date="1540134670634" expanded="true" signature="44:49" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week_2_a_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="110" column="77" lean-forward="true" selection-start-line="109" selection-start-column="4" selection-end-line="110" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1540134670637" expanded="true" signature="1389:1472" ph="..." />
-            <marker date="1540134670637" expanded="true" signature="1483:1484" ph="..." />
-            <marker date="1540134670637" expanded="true" signature="1483:3446" ph="..." />
+            <marker date="1540275065246" expanded="true" signature="44:49" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="294">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
           <folding>
             <element signature="e#0#72#0" expanded="true" />
             <marker date="1540134670636" expanded="true" signature="161:452" ph="..." />
@@ -515,6 +499,19 @@
             <marker date="1540134670636" expanded="true" signature="987:988" ph="..." />
             <marker date="1540134670636" expanded="true" signature="1216:1539" ph="..." />
             <marker date="1540134670636" expanded="true" signature="1550:3512" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week_2_a_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1540134670637" expanded="true" signature="1389:1472" ph="..." />
+            <marker date="1540134670637" expanded="true" signature="1483:1484" ph="..." />
+            <marker date="1540134670637" expanded="true" signature="1483:3446" ph="..." />
           </folding>
         </state>
       </provider>

@@ -6,5 +6,5 @@ def get_lowest_index(input_list:list)->dict:
         list_dict[indx] = rss
         indx += 1
 
-    min = min(list_dict, key=list_dict.get)
-    return min
+    lowest_index = min(list_dict, key=list_dict.get)
+    return lowest_index
