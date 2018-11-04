@@ -1,7 +1,8 @@
 import numpy as np
-import data_management as dm
+from data_management import get_train_data, get_test_data
 import helpers
 import math
+
 
 # #3
 def get_numpy_data(data_frame, features, output):
@@ -57,8 +58,8 @@ def get_rss(predictions, output):
     return rss
 
 def main():
-    train_data = dm.get_train_data()
-    test_data = dm.get_test_data()
+    train_data = get_train_data()
+    test_data = get_test_data()
 
     # #8
     simple_features = ['sqft_living']

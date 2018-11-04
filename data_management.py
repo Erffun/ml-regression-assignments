@@ -7,13 +7,29 @@ dtype_dict = {'bathrooms': float, 'waterfront': int, 'sqft_above': int, 'sqft_li
 
 
 def read_csv_file(filename: str)->list:
-    data = pandas.read_csv(filename, dtype=dtype_dict)
+    data = pandas.read_csv('../csvFiles/{filename}.csv'.format(filename=filename), dtype=dtype_dict)
     return data
 
 
 def get_train_data()->list:
-    return read_csv_file('../csvFiles/kc_house_train_data.csv')
+    return read_csv_file('kc_house_train_data')
 
 
 def get_test_data()->list:
-    return read_csv_file('../csvFiles/kc_house_test_data.csv')
+    return read_csv_file('kc_house_test_data')
+
+
+def get_w3_train_data()->list:
+    return read_csv_file('wk3_kc_house_train_data')
+
+
+def get_w3_test_data()->list:
+    return read_csv_file('wk3_kc_house_test_data')
+
+
+def get_w3_valid_data()->list:
+    return read_csv_file('wk3_kc_house_valid_data')
+
+
+def get_w3_house_set_data(set_number: int)->list:
+    return read_csv_file('wk3_kc_house_set_{number}_data'.format(number=set_number))

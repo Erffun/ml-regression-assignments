@@ -1,7 +1,7 @@
 from statsmodels.regression.linear_model import RegressionResultsWrapper
 import numpy
 import statsmodels.api as sm
-import data_management as dm
+from data_management import get_train_data, get_test_data
 import helpers
 
 
@@ -41,8 +41,8 @@ def get_rss(model: RegressionResultsWrapper, data: list, input_model: list, para
 
 
 def main():
-    train_data = dm.get_train_data()
-    test_data = dm.get_test_data()
+    train_data = get_train_data()
+    test_data = get_test_data()
 
     # #3
     train_data = add_new_values(train_data)
