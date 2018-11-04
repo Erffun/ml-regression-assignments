@@ -12,8 +12,8 @@ def read_csv_file(filename: str)->list:
 
 
 def get_train_data()->list:
-    return read_csv_file('csvFiles/kc_house_train_data.csv')
+    return read_csv_file('../csvFiles/kc_house_train_data.csv')
 
 
 def get_test_data()->list:
-    return read_csv_file('csvFiles/kc_house_test_data.csv')
+    return read_csv_file('../csvFiles/kc_house_test_data.csv')
