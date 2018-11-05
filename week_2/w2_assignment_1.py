@@ -61,11 +61,11 @@ def main():
 
     # #6 Quiz
     model_1_coefficient = get_param_from_estimated_model(model_1_estimated, 'bathrooms')
-    print('Model 1: coefficient of bedroom is: {coef:10.2f}'.format(coef=model_1_coefficient))
+    print('Model 1: coefficient of bathrooms is: {coef:10.2f}'.format(coef=model_1_coefficient))
 
     # #7 Quiz
     model_2_coefficient = get_param_from_estimated_model(model_2_estimated, 'bathrooms')
-    print('Model 2: coefficient of bedroom is: {coef:10.2f}'.format(coef=model_2_coefficient))
+    print('Model 2: coefficient of bathrooms is: {coef:10.2f}'.format(coef=model_2_coefficient))
 
     # #9
     rss_list = dict()
