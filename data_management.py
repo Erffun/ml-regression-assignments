@@ -6,30 +6,38 @@ dtype_dict = {'bathrooms': float, 'waterfront': int, 'sqft_above': int, 'sqft_li
               'sqft_basement': int, 'yr_built': int, 'id': str, 'sqft_lot': int, 'view': int}
 
 
-def read_csv_file(filename: str)->list:
+def read_csv_file(filename: str)-> pandas.DataFrame:
     data = pandas.read_csv('../csvFiles/{filename}.csv'.format(filename=filename), dtype=dtype_dict)
     return data
 
 
-def get_train_data()->list:
+def get_house_data()->pandas.DataFrame:
+    return read_csv_file('kc_house_data')
+
+
+def get_train_data()->pandas.DataFrame:
     return read_csv_file('kc_house_train_data')
 
 
-def get_test_data()->list:
+def get_test_data()->pandas.DataFrame:
     return read_csv_file('kc_house_test_data')
 
 
-def get_w3_train_data()->list:
+def get_w3_house_data()->pandas.DataFrame:
+    return read_csv_file('wk3_kc_house_data')
+
+
+def get_w3_train_data()->pandas.DataFrame:
     return read_csv_file('wk3_kc_house_train_data')
 
 
-def get_w3_test_data()->list:
+def get_w3_test_data()->pandas.DataFrame:
     return read_csv_file('wk3_kc_house_test_data')
 
 
-def get_w3_valid_data()->list:
+def get_w3_valid_data()->pandas.DataFrame:
     return read_csv_file('wk3_kc_house_valid_data')
 
 
-def get_w3_house_set_data(set_number: int)->list:
+def get_w3_house_set_data(set_number: int)->pandas.DataFrame:
     return read_csv_file('wk3_kc_house_set_{number}_data'.format(number=set_number))
