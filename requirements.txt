@@ -5,3 +5,5 @@ pytz==2018.5
 scipy==1.1.0
 six==1.11.0
 statsmodels
+matplotlib
+scikit-learn
