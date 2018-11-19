@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2153a1b8-0617-4acb-a709-637bbd683b3e" name="Default Changelist" comment="" />
+    <list default="true" id="2153a1b8-0617-4acb-a709-637bbd683b3e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_management.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week_3/w3_assignment_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/week_3/w3_assignment_1.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,8 +188,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data_management.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            <state relative-caret-position="374">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="21" />
               <folding>
                 <marker date="1542661395069" expanded="true" signature="491:695" ph="..." />
                 <marker date="1542661395069" expanded="true" signature="1314:1315" ph="..." />
@@ -759,8 +763,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week_3/w3_assignment_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="79" column="26" lean-forward="true" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+        <state relative-caret-position="374">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="21" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <marker date="1542661062296" expanded="true" signature="704:705" ph="..." />
@@ -772,8 +776,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data_management.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        <state relative-caret-position="255">
+          <caret line="90" column="70" selection-start-line="90" selection-start-column="70" selection-end-line="90" selection-end-column="70" />
           <folding>
             <marker date="1542661395069" expanded="true" signature="491:695" ph="..." />
             <marker date="1542661395069" expanded="true" signature="1314:1315" ph="..." />
