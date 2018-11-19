@@ -1,9 +1,7 @@
 import pandas
-import statsmodels.api as sm
-from statsmodels.regression.linear_model import RegressionResultsWrapper
 import data_management as dm
 import matplotlib.pyplot as plt
-import numpy as np
+from sklearn.linear_model import LinearRegression
 
 
 # #2
@@ -18,18 +16,19 @@ def polynomial_dataframe(feature, degree):  # feature is pandas.Series type
     return poly_dataframe
 
 
-def get_estimated_model(data: list, input_models: list, y_param: str)-> RegressionResultsWrapper:
+def get_estimated_model(data: list, input_models: list, y_param: str)->LinearRegression:
+    x = data[input_models]
     y = data[y_param]
-    x = sm.add_constant(data[input_models])
-    model = sm.OLS(y, x)
-    result = model.fit()
-    return result
+
+    fit_model = LinearRegression().fit(x, y)
+
+    return fit_model
 
 
-def print_coefficient(params: pandas.Series):
+def print_coefficient(coef_list: list):
 
-    for (key,value) in params.items():
-        print('coefficient of {key} is: {coef}'.format(key=key, coef=value))
+    for i, coef in enumerate(coef_list):
+        print('coefficient of power_{index} is: {coef}'.format(index=i, coef=coef))
 
 
 def create_polynomial(data: pandas.DataFrame, features: str, param_name: str, degree: int):
@@ -49,20 +48,20 @@ def plot_polynomial(polynomial_data: pandas.DataFrame, predict_model, param_name
     plt.show()
 
 
-def show_result(poly_data: pandas.DataFrame, regression_model: RegressionResultsWrapper,
+def show_result(poly_data: pandas.DataFrame, regression_model: LinearRegression,
                 predict_model: pandas.DataFrame, y_param: str, degree: int):
 
     poly_features = [i for i in poly_data.columns.values if i.startswith('power_')]
 
     # #7
-    pred_model = regression_model.predict(sm.add_constant(predict_model[poly_features]))
+    pred_model = regression_model.predict(predict_model[poly_features])
 
     plot_polynomial(poly_data, pred_model, y_param)
 
     # #9
     print('-----coefficient of degree {deg}------'.format(deg=degree))
 
-    print_coefficient(regression_model.params)
+    print_coefficient(regression_model.coef_)
 
 
 def get_polynomial_and_estimated_model(data: pandas.DataFrame, feature: str, y_param: str, degree: int):

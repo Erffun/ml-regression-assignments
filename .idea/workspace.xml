@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2153a1b8-0617-4acb-a709-637bbd683b3e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_management.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week_3/w3_assignment_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/week_3/w3_assignment_1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,20 +65,21 @@
     <session id="-365668511">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="py" value="4349" />
+          <entry key="py" value="4356" />
           <entry key="txt" value="53" />
           <entry key="w2_assignment_1" value="1" />
           <entry key="w3_assignment_1" value="22" />
@@ -90,7 +89,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="69" />
-          <entry key="Python" value="4373" />
+          <entry key="Python" value="4380" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -109,105 +108,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week_2/w2_assignment_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="e#0#72#0" expanded="true" />
-                <marker date="1541294963491" expanded="true" signature="190:481" ph="..." />
-                <marker date="1541294963491" expanded="true" signature="229:481" ph="..." />
-                <marker date="1541294963491" expanded="true" signature="520:917" ph="..." />
-                <marker date="1541294963491" expanded="true" signature="1016:1017" ph="..." />
-                <marker date="1541294963491" expanded="true" signature="1245:1568" ph="..." />
-                <marker date="1541294963491" expanded="true" signature="1579:3539" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week_3/w3_assignment_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="79" column="26" lean-forward="true" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <marker date="1542661062296" expanded="true" signature="704:705" ph="..." />
-                <marker date="1542661062296" expanded="true" signature="1097:1314" ph="..." />
-                <marker date="1542661062296" expanded="true" signature="2243:2476" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week_2/w2_assignment_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <marker date="1541291171879" expanded="true" signature="1419:1502" ph="..." />
-                <marker date="1541291171879" expanded="true" signature="1513:1514" ph="..." />
-                <marker date="1541291171879" expanded="true" signature="1513:3470" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../R&amp;D/Uni/ml-regression-assignments/venv/Lib/site-packages/pandas/core/frame.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43758">
-              <caret line="2664" selection-start-line="2664" selection-end-line="2664" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../R&amp;D/Uni/ml-regression-assignments/venv/Lib/site-packages/pandas/core/common.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6698">
-              <caret line="409" selection-start-line="409" selection-end-line="409" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../R&amp;D/Uni/ml-regression-assignments/venv/Lib/site-packages/sklearn/linear_model/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6851">
-              <caret line="425" column="8" selection-start-line="425" selection-start-column="8" selection-end-line="425" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_management.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="21" />
-              <folding>
-                <marker date="1542661395069" expanded="true" signature="491:695" ph="..." />
-                <marker date="1542661395069" expanded="true" signature="1314:1315" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -241,8 +142,8 @@
         <option value="$PROJECT_DIR$/week_2/w2_assignment_2.py" />
         <option value="$PROJECT_DIR$/week_2/w2_assignment_1.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/week_3/w3_assignment_1.py" />
         <option value="$PROJECT_DIR$/data_management.py" />
+        <option value="$PROJECT_DIR$/week_3/w3_assignment_1.py" />
       </list>
     </option>
   </component>
@@ -277,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,6 +203,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -501,9 +402,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15295629" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15488432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -522,8 +422,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.66358596" visible="true" weight="0.24935733" />
-      <window_info anchor="right" x="0" y="0" width="354" height="686" id="Documentation" order="4" sideWeight="0.33641404" side_tool="true" visible="true" weight="0.24935733" />
+      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.6617375" visible="true" weight="0.24935733" />
+      <window_info anchor="right" x="0" y="0" width="354" height="686" id="Documentation" order="4" sideWeight="0.33826247" side_tool="true" visible="true" weight="0.24935733" />
       <window_info anchor="right" id="Database" order="5" sideWeight="0.49598393" weight="0.32969153" />
     </layout>
   </component>
@@ -704,31 +604,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week_2/w2_assignment_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#0#72#0" expanded="true" />
-            <marker date="1541294963491" expanded="true" signature="190:481" ph="..." />
-            <marker date="1541294963491" expanded="true" signature="229:481" ph="..." />
-            <marker date="1541294963491" expanded="true" signature="520:917" ph="..." />
-            <marker date="1541294963491" expanded="true" signature="1016:1017" ph="..." />
-            <marker date="1541294963491" expanded="true" signature="1245:1568" ph="..." />
-            <marker date="1541294963491" expanded="true" signature="1579:3539" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week_2/w2_assignment_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="187">
           <caret line="11" column="25" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="25" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1541291171879" expanded="true" signature="1419:1502" ph="..." />
-            <marker date="1541291171879" expanded="true" signature="1513:1514" ph="..." />
-            <marker date="1541291171879" expanded="true" signature="1513:3470" ph="..." />
           </folding>
         </state>
       </provider>
@@ -761,26 +642,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data_management.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/week_3/w3_assignment_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="21" />
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1542661062296" expanded="true" signature="704:705" ph="..." />
-            <marker date="1542661062296" expanded="true" signature="1097:1314" ph="..." />
-            <marker date="1542661062296" expanded="true" signature="2243:2476" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_management.py">
+    <entry file="file://$PROJECT_DIR$/week_2/w2_assignment_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="90" column="70" selection-start-line="90" selection-start-column="70" selection-end-line="90" selection-end-column="70" />
+        <state relative-caret-position="459">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
-            <marker date="1542661395069" expanded="true" signature="491:695" ph="..." />
-            <marker date="1542661395069" expanded="true" signature="1314:1315" ph="..." />
+            <element signature="e#0#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
