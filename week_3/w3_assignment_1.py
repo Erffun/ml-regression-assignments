@@ -3,6 +3,7 @@ import statsmodels.api as sm
 from statsmodels.regression.linear_model import RegressionResultsWrapper
 import data_management as dm
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 # #2
@@ -32,19 +33,19 @@ def print_coefficient(params: pandas.Series):
 
 
 def create_polynomial(data: pandas.DataFrame, features: str, param_name: str, degree: int):
-    poly1_data: pandas.DataFrame = polynomial_dataframe(data[features], degree)
-    poly_feature = poly1_data.columns.values
+    poly_data: pandas.DataFrame = polynomial_dataframe(data[features], degree)
+    poly_feature = poly_data.columns.values
 
     # #5
-    poly1_data[param_name] = data[param_name]
+    poly_data[param_name] = data[param_name]
 
-    return poly1_data, poly_feature
+    return poly_data, poly_feature
 
 
 def plot_polynomial(polynomial_data: pandas.DataFrame, predict_model, param_name: str):
-
-    plt.plot(polynomial_data['power_1'], polynomial_data[param_name], '.', polynomial_data['power_1'], predict_model,
-             '-')
+    plot_feature_name = 'power_1'
+    plt.plot(polynomial_data[plot_feature_name], polynomial_data[param_name], '.', polynomial_data[plot_feature_name],
+             predict_model, '-')
     plt.show()
 
 
@@ -66,14 +67,12 @@ def show_result(poly_data: pandas.DataFrame, regression_model: RegressionResults
 
 def get_polynomial_and_estimated_model(data: pandas.DataFrame, feature: str, y_param: str, degree: int):
     # #4
-    poly1_data, poly1_features = create_polynomial(data, feature, y_param, degree)
+    poly_data, poly_features = create_polynomial(data, feature, y_param, degree)
 
     # #6
-    model1 = get_estimated_model(poly1_data, poly1_features, y_param)
+    model = get_estimated_model(poly_data, poly_features, y_param)
 
-    show_result(poly1_data, model1, poly1_data, y_param, degree)
-
-    return poly1_data, model1
+    show_result(poly_data, model, poly_data, y_param, degree)
 
 
 def main():
@@ -85,14 +84,14 @@ def main():
     y_param = 'price'
 
     # # #4
-    poly1_data, regression1_model = get_polynomial_and_estimated_model(sales, features, y_param, 1)
-
-    # #8
-    poly2_data, regression2_model = get_polynomial_and_estimated_model(sales, features, y_param, 2)
-    poly3_data, regression3_model = get_polynomial_and_estimated_model(sales, features, y_param, 3)
+    get_polynomial_and_estimated_model(sales, features, y_param, 1)
+    #
+    # # #8
+    get_polynomial_and_estimated_model(sales, features, y_param, 2)
+    get_polynomial_and_estimated_model(sales, features, y_param, 3)
 
     # #9
-    poly15_data, regression15_model = get_polynomial_and_estimated_model(sales, features, y_param, 15)
+    get_polynomial_and_estimated_model(sales, features, y_param, 15)
 
     # # #10
     # sub_model_1 = dm.get_w3_house_set_data(1)
@@ -101,7 +100,10 @@ def main():
     # sub_model_4 = dm.get_w3_house_set_data(4)
     #
     # # #11
-    # show_result(poly15_data, regression15_model, sub_model_1, y_param, 15)
+    # get_polynomial_and_estimated_model(sub_model_1, features, y_param, 15)
+    # get_polynomial_and_estimated_model(sub_model_2, features, y_param, 15)
+    # get_polynomial_and_estimated_model(sub_model_3, features, y_param, 15)
+    # get_polynomial_and_estimated_model(sub_model_4, features, y_param, 15)
 
 
 if __name__ == "__main__":
