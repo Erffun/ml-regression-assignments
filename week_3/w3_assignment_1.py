@@ -92,17 +92,12 @@ def main():
     # #9
     get_polynomial_and_estimated_model(sales, features, y_param, 15)
 
-    # # #10
-    # sub_model_1 = dm.get_w3_house_set_data(1)
-    # sub_model_2 = dm.get_w3_house_set_data(2)
-    # sub_model_3 = dm.get_w3_house_set_data(3)
-    # sub_model_4 = dm.get_w3_house_set_data(4)
-    #
-    # # #11
-    # get_polynomial_and_estimated_model(sub_model_1, features, y_param, 15)
-    # get_polynomial_and_estimated_model(sub_model_2, features, y_param, 15)
-    # get_polynomial_and_estimated_model(sub_model_3, features, y_param, 15)
-    # get_polynomial_and_estimated_model(sub_model_4, features, y_param, 15)
+    for i in (1, 2, 3, 4):
+        # #10
+        sub_model = dm.get_w3_house_set_data(i)
+
+        # #11
+        get_polynomial_and_estimated_model(sub_model, features, y_param, 15)
 
 
 if __name__ == "__main__":
